@@ -37,5 +37,7 @@ This template comes pre-installed with sketchplate. If you would like to update 
 	sketchplate new ./my-project -t amd-sketch
 ```
 
+Begin editing the javascript of your project at [javascripts/app/main.js](https://github.com/hapticdata/template-amd-sketch/blob/master/template/javascripts/app/main.js) this will be invoked once the DOM has completed loading.
+
 
 created by [Kyle Phillips](http://haptic-data.com) on April 8th, 2012
