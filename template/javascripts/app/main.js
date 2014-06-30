@@ -1,7 +1,7 @@
-define([
-	'jquery'
-], function( $ ){
-	return function app(){
+define(function( require, exports, module ){
+    var $ = require('jquery');
 
-	};
+    return function app(){
+
+    };
 });
