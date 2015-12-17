@@ -31,7 +31,6 @@ sketchplate new ./my-project -t amd-sketch
 * [three.js](http://mrdoob.github.com/three.js/)
 * [Stats.js](http://github.com/mrdoob/stats.js/)
 * [d3](http://github.com/mbostock/d3)
-* [modernizr](http://modernizr.com)
 
 
 All of these libraries will be fetched the first time automatically, they are placed in a `javascripts/vendor` folder with a matching [configuration file](https://github.com/hapticdata/Sketchplate/blob/master/defaults/templates/amd-sketch/template/javascripts/config.js) _([ more about require.js shim config](http://requirejs.org/docs/api.html#config-shim) )_. Only resources that you reference in your project will ever be loaded or included in a built project. The output directory structure is setup to easily be moved into a [node.js](http://nodejs.org) + [express.js](http://expressjs.com) file structure.
